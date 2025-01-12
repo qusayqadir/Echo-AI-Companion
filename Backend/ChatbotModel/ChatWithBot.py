@@ -11,9 +11,7 @@ chat_history = []
 
 # Function to chat with the bot
 def chat_with_bot(message, model_id, chat_history):
-    # Append the user's message to the chat history
-    chat_history.append({"role": "User", "content": message})
-    
+
     # Format the chat history into a single string for the API
     formatted_history = "\n".join([f"{entry['role']}: {entry['content']}" for entry in chat_history])
     
@@ -25,7 +23,6 @@ def chat_with_bot(message, model_id, chat_history):
     
     # Get the bot's response and append it to the chat history
     bot_response = response.text
-    chat_history.append({"role": "Chatbot", "content": bot_response})
     
     return bot_response
 
