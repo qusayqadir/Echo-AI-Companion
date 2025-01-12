@@ -14,6 +14,8 @@ app = Flask(__name__)
 # Store conversations with chat_id as keys
 chats = {}
 
+chats["12345"] = {"modelID" : "f97b173f-5615-42df-beff-f8f15f31fd27-ft", "messages" : []}
+
 metaDataPath = "data/metadata_cohere.csv"
 
 # A dummy getID function that generates a chat_id from the filename
@@ -89,7 +91,7 @@ def chat(chat_id):
     chats[chat_id]["messages"].append({"role": "User", "content": user_prompt})
 
     # Placeholder bot response
-    bot_response = chat_with_bot(user_prompt, model_id, chats[chat_id])
+    bot_response = chat_with_bot(user_prompt, model_id, chats[chat_id]["messages"])
     chats[chat_id]["messages"].append({"role": "Chatbot", "content": bot_response})
 
     # Return the updated conversation
