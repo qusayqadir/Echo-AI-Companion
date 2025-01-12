@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import os
 
 from flask_cors import CORS
+import re
 
 from ChatbotModel.ChatWithBot import chat_with_bot
 #from ChatbotModel.TrainBot import fine_tune_mode
@@ -65,6 +66,7 @@ def chat(chat_id):
 
     # Generate a placeholder response
     bot_response = chat_with_bot(user_prompt, 'f97b173f-5615-42df-beff-f8f15f31fd27-ft', chats[chat_id])
+    bot_response = re.sub(r'\b(user|assistant):', '', bot_response, flags=re.IGNORECASE).strip()
     chats[chat_id].append({"role": "assistant", "content": bot_response})
 
     print(f"Updated chat: {chats[chat_id]}")  # Log the updated chat conversation

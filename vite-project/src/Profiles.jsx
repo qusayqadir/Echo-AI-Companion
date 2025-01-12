@@ -47,22 +47,22 @@ export default function Profiles() {
     {
       src: "char1.png",
       persona: "Persona 1",
-      isEmpty: true,
+      isEmpty: false,
     },
     {
       src: "char2.png",
       persona: "Persona 2",
-      isEmpty: true,
+      isEmpty: false,
     },
     {
       src: "char3.png",
       persona: "Persona 3",
-      isEmpty: true,
+      isEmpty: false,
     },
     {
       src: "char4.png",
       persona: "Persona 4",
-      isEmpty: true,
+      isEmpty: false,
     },
   ];
   
@@ -154,37 +154,60 @@ export default function Profiles() {
             overflow="hidden"
             position="relative"
           >
-            <Image
-              src={images[currentIndex].src}
-              alt={`Slide ${currentIndex + 1}`}
-              boxSize="100%"
-              objectFit="cover"
-              borderRadius="md"
-              transition="transform 0.5s ease-in-out, opacity 0.5s ease-in-out"
-              key={currentIndex}
-            />
-          </Box>
+          <Image
+            src={images[currentIndex].src}
+            alt={`Slide ${currentIndex + 1}`}
+            boxSize="100%"
+            objectFit="cover"
+            borderRadius="md"
+            transition="transform 0.5s ease-in-out, opacity 0.5s ease-in-out"
+            key={currentIndex}
+          />
+        </Box>
 
-          {/* Persona Avatar and Text */}
-          <Flex mt={4} align="center" direction="column">
-  {/* Persona Avatar and Details */}
-  <Avatar
-    size="lg"
-    name={personas[currentIndex].persona}
-    src={personas[currentIndex].src}
-  />
+      <Flex mt={4} align="center" direction="column">
+      {/* Persona Avatar and Details */}
+
   <Text mt={2} fontSize="lg" fontWeight="bold" color="gray.700">
     {personas[currentIndex].persona}
   </Text>
   
-  {personas[currentIndex].isEmpty ? (
-  <Button
-    as={RouterLink}
+  {personas[currentIndex]?.isEmpty ? (
+
+  <Flex>
+<Text mt={2} fontSize="lg" fontWeight="bold" color="gray.700">
+                <Box textAlign="center" mt={8}>
+                    <Popover>
+                    <PopoverTrigger>
+                        <Button colorScheme="blue">New Chat</Button>
+                    </PopoverTrigger>
+                    <PopoverContent width="300px" height="150px">
+                        <PopoverArrow />
+                        <PopoverCloseButton />
+                        <PopoverHeader fontWeight="bold">Upload Txt File!
+                        </PopoverHeader>
+
+                        <PopoverBody>
+                        <Center marginLeft={10}>
+                        <input
+                                type="file"
+                                onChange={(e) => {
+                                    uploadImage(e);
+                                }}
+                                />
+                        </Center>
+                        </PopoverBody>
+                        <PopoverFooter>
+                            <Button   as={RouterLink}
     to="/Chatbot"
-    onClick={() => toggleEmptyFlag(currentIndex)}
-  >
-    New Chat
-  </Button>
+    onClick={() => toggleEmptyFlag(currentIndex)} >
+                            </Button>
+                        </PopoverFooter>
+                    </PopoverContent>
+                    </Popover>
+                </Box>
+            </Text>
+          </Flex>
 ) : (
     <Button
     as={RouterLink}
@@ -240,9 +263,6 @@ export default function Profiles() {
         </Button>
     </Flex>
     ) : null}
-
-
-
 
         </Flex>
       </Center>
