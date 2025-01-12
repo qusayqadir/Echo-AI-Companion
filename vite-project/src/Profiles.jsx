@@ -45,22 +45,22 @@ export default function Profiles() {
   // Carousel state
   const images = [
     {
-      src: "char1.png",
+      src: "pic.png",
       persona: "Persona 1",
       isEmpty: false,
     },
     {
-      src: "char2.png",
+      src: "pic2.png",
       persona: "Persona 2",
-      isEmpty: false,
+      isEmpty: true,
     },
     {
-      src: "char3.png",
+      src: "pic3.png",
       persona: "Persona 3",
       isEmpty: false,
     },
     {
-      src: "char4.png",
+      src: "pic4.png",
       persona: "Persona 4",
       isEmpty: false,
     },
@@ -179,7 +179,7 @@ export default function Profiles() {
                 <Box textAlign="center" mt={8}>
                     <Popover>
                     <PopoverTrigger>
-                        <Button colorScheme="blue">New Chat</Button>
+                        <Button colorScheme="blue" >New Chat</Button>
                     </PopoverTrigger>
                     <PopoverContent width="300px" height="150px">
                         <PopoverArrow />
@@ -200,7 +200,17 @@ export default function Profiles() {
                         <PopoverFooter>
                             <Button   as={RouterLink}
                               to="/Chatbot"
-                              onClick={() => toggleEmptyFlag(currentIndex)} >
+                              onClick={async () => {
+                                toggleEmptyFlag(currentIndex); // Toggle the empty flag
+                                try {
+                                const chatId = personas[currentIndex].chatId || "12345"; // Default chat ID if undefined
+                                const response = await axios.delete(`http://127.0.0.1:5000/reset_chat/${chatId}`); // Fixed URL with template literal
+                                console.log(response.data.message); // Log success message
+                                } catch (error) {
+                                console.error("Error resetting chat:", error.response?.data || error.message); // Improved error handling
+                                }
+                            }} >
+                                Chat
                             </Button>
                         </PopoverFooter>
                     </PopoverContent>

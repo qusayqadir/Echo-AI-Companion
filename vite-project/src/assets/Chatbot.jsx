@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Routes, Route, Link as RouterLink, useNavigate } from "react-router-dom";
 import {
@@ -19,6 +19,24 @@ const Chatbot = () => {
     const [conversation, setConversation] = useState([]); // Store the conversation history
     const [error, setError] = useState(""); // Store any error message
     const chatId = "12345"; // Hardcoded chat ID (replace as needed)
+
+    useEffect(() => {
+      const fetchConversation = async () => {
+        try {
+          const response = await axios.get(`http://127.0.0.1:5000/conversation/${chatId}`);
+          const { conversation: initialConversation } = response.data;
+          setConversation(initialConversation);
+        } catch (err) {
+          if (err.response) {
+            setError(err.response.data.error || "Failed to load conversation");
+          } else {
+            setError("Network error while fetching conversation");
+          }
+        }
+      };
+  
+      fetchConversation();
+    }, [chatId]);
   
     const handleSendMessage = async () => {
       if (!userPrompt.trim()) {
