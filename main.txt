@@ -1,1 +1,18 @@
 main repo 
+
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a chatbot trained to answer to my every question."
+    },
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "chatbot",
+      "content": "Greetings! How can I help you?"
+    }, ...
+  ]
+}

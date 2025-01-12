@@ -1,0 +1,211 @@
+ Qusay Qadir: Yo Ryan, you got a sec? Been struggling with landing these interviews, man.
+ Ryan Brubacher: Brooo, say less, I got you. What’s the vibe rn? What’s stopping you from securing those LinkedIn bangers?
+ Qusay Qadir: Honestly, idk. I’m applying to a ton of jobs, tweaking my resume, but it feels like it’s all going into the void.
+ Ryan Brubacher: Okok fr tho, are you hitting up recruiters? Slide into DMs like it’s Tinder but for jobs 💀. Shoot your shot, King.
+ Qusay Qadir: I mean, I’ve sent a few messages, but it feels awkward, you know?
+ Ryan Brubacher: Bruh, cringe is dead. Just hit ‘em with “Hey, I’m super hyped about [company]. Any tips for standing out? 🫡”
+ Qusay Qadir: Lol okay, I’ll try. Also, what’s your take on networking events? Worth it or nah?
+ Ryan Brubacher: Big W if you’re tryna collect those LinkedIn Pokédex connections, ngl. Be chill, no tryhard vibes. People love that.
+ Qusay Qadir: Makes sense. Btw, congrats again on Synopsys! That’s huge. What made your application stand out?
+ Ryan Brubacher: Appreciate it fam 🙏. Honestly? Portfolio over everything. I showed off my side projects like a nerd flex, and they ate it up.
+ Qusay Qadir: Side projects, huh? I’ve got some, but idk if they’re Synopsys-tier, you know?
+ Ryan Brubacher: Cap. Every project is a vibe if you sell it right. Talk about your struggles, lessons, and how you made it GOATed in the end.
+ Qusay Qadir: Alright, I’ll revamp my GitHub. You think it’s worth blogging about my projects too?
+ Ryan Brubacher: BIG yes. Medium, LinkedIn, even a random Twitter thread. People love to see the process. Just be like, “Here’s how I turned chaos into code 🔥.”
+ Qusay Qadir: Haha, okay, okay. And for the interviews, any tips to get over the nerves?
+ Ryan Brubacher: Lemme keep it 100: prep is your BFF. Leetcode, STAR method answers, and hydrate like you’re running a marathon. Fake confidence till it’s real, bro.
+ Qusay Qadir: Thanks, man. I feel like I needed this pep talk. You’ve been killing it, and I appreciate the advice.
+ Ryan Brubacher: Anytime, my dude. You’re next up, trust. Just gotta stay in the grind and let the glow-up happen naturally. 🌟
+ Qusay Qadir: You really think the glow-up’s coming? Feels like I’ve been grinding forever, and nothing’s clicking.
+ Ryan Brubacher: Bro, Rome wasn’t built in a day, and neither was your LinkedIn clout. Trust the process. Keep building.
+ Qusay Qadir: I hear you. But, man, these rejection emails hit different. Like, how many times can I read “we’ve decided to move forward with other candidates”?
+ Ryan Brubacher: 💀 that’s corporate ghosting with extra steps. But yo, every “no” gets you closer to the “yes.” It’s just math.
+ Qusay Qadir: Math, huh? If only I could Leetcode my way out of this job hunt faster.
+ Ryan Brubacher: Lmaoo, imagine. “Find x where x = my dream job.” But fr, stick with your DSA grind, and don’t skip behavioral prep.
+ Qusay Qadir: Speaking of, what’s a solid way to answer “tell me about yourself” without sounding basic?
+ Ryan Brubacher: EZ clap. Start with your story. “I’m a McMaster software engineer nerd with a passion for breaking things (in code).” Sprinkle your projects, and boom, magic.
+ Qusay Qadir: Haha, breaking things in code… sounds about right. What about weaknesses? I never know how to spin that.
+ Ryan Brubacher: Oh, the classic “weakness but not really a weakness.” Say smth like, “I overanalyze, but it helps me write bug-free code.” GG.
+ Qusay Qadir: Lol, nice. And for projects, what if they’re not super flashy? Like, does every recruiter want the next ChatGPT or something?
+ Ryan Brubacher: Nah bro, not everyone’s coding Skynet. Just show you can solve real problems. Even a clean to-do app can slap if the story’s good.
+ Qusay Qadir: Okay, makes sense. Speaking of stories, what’s the wildest thing you pitched in an interview?
+ Ryan Brubacher: Bruhh, I once said my bug tracker was inspired by my messy dorm room 💀. They vibed with it tho. Just keep it real.
+ Qusay Qadir: Haha, I can’t with you. Alright, I’ll keep my pitches authentic. Any advice on handling technical interview curveballs?
+ Ryan Brubacher: Big brain energy here: stay calm, explain your thought process, and if you’re stuck, ask questions. It’s about vibes, not just answers.
+ Qusay Qadir: Right, vibes. Man, this whole process is like a giant DSA problem, isn’t it?
+ Ryan Brubacher: Facts. Job hunting = recursion. Keep trying till base case = job secured 💯.
+ Qusay Qadir: Lol, base case: Qusay employed. Anyway, thanks for the advice, man. I feel a bit less lost now.
+ Ryan Brubacher: Always, my guy. We’re all just NPCs trying to level up. You’re gonna pop off soon, I can feel it. 🫡
+ Qusay Qadir: I’ll keep you posted on the glow-up. Catch you later, man.
+ Ryan Brubacher: Bet. Ping me anytime. And don’t forget: recruiters = final boss, but you’re built different. Peace, bro.
+ Qusay Qadir: Peace. Thanks again.
+ Ryan Brubacher: Yo wait, before you go… you find a gf yet, or is the grind still your main squeeze? 💀
+ Qusay Qadir: Lmao, nah man. Been too busy trying to secure the bag. You know how it is.
+ Ryan Brubacher: Brooo, the bag’s important, but like, you gotta balance. Can’t let your LinkedIn clout be your only W. 😭
+ Qusay Qadir: Fair. But hey, you’re the one with the Synopsys badge now. What’s your secret? Do I need the internship glow to catch someone’s eye?
+ Ryan Brubacher: 💀 nah man, you just need vibes and confidence. Also maybe stop saying “catch someone’s eye” like a Disney prince.
+ Qusay Qadir: Haha, noted. So, how’s the internship treating you? Synopsys as bougie as it sounds?
+ Ryan Brubacher: Oh, 100%. Free snacks, big monitors, and I write code that probably gets used once a decade. Living the dream fr.
+ Qusay Qadir: Sounds like peak life. But real talk, any advice for navigating a big company as an intern?
+ Ryan Brubacher: Easy: make friends with IT, don’t roast the codebase in front of seniors, and always ask smart-sounding questions. Bosses love that.
+ Qusay Qadir: Smart-sounding questions? Like what?
+ Ryan Brubacher: Like “How does this feature align with the company’s long-term goals?” Sounds deep, means nothing, but it slaps in meetings.
+ Qusay Qadir: Lol, I’m writing that one down. Gotta fake it till I make it, right?
+ Ryan Brubacher: Exactly. Everyone’s winging it, bro. You just gotta wing it with confidence.
+ Qusay Qadir: Solid advice. Also, you never answered my question: you got someone special, or are you solo grinding too?
+ Ryan Brubacher: Nah, I’m cuffed. Met her at a hackathon last year. She coded circles around me, and I was like, “Yup, that’s the one.” 🫡
+ Qusay Qadir: Damn, a hackathon romance. That’s next-level nerdy but kinda sweet.
+ Ryan Brubacher: Big facts. She’s the brains, I’m the clown. Power couple energy.
+ Qusay Qadir: Lol, good for you, man. Maybe I’ll hit up a hackathon and see what happens. Worst case, I learn something, right?
+ Ryan Brubacher: Exactly, bro. Hackathons are matchmaking for coders and recruiters. Dual W potential.
+ Qusay Qadir: Okay, but how do you not crash after 36 hours of coding and zero sleep?
+ Ryan Brubacher: Two words: energy drinks. And when those stop working, you just vibe on pure desperation.
+ Qusay Qadir: Sounds healthy. I’ll stick to coffee and hope for the best.
+ Ryan Brubacher: Coffee works too, as long as you don’t make it all milk. That’s just sad hot cereal, bro.
+ Qusay Qadir: Haha, okay, no sad hot cereal for me. Anyway, back to job stuff: think side projects make a huge difference?
+ Ryan Brubacher: Oh, for sure. Side projects show you’re not just grinding for grades. Plus, recruiters eat that “self-driven learner” energy up.
+ Qusay Qadir: Gotcha. So I just slap my GitHub link everywhere and pray someone clicks?
+ Ryan Brubacher: Lol, basically. But also, highlight one or two projects that slap hard. Quality > quantity, my guy.
+ Qusay Qadir: Okay, I’ll polish up my portfolio. Maybe write about my process too, like you said earlier.
+ Ryan Brubacher: Big brain move. Show the hustle, show the struggle, and show why you’re the GOAT. Easy dubs.
+ Qusay Qadir: Alright, I’ll get on that. Also, random question: ever feel like McMaster’s name holds us back compared to, like, U of T or Waterloo?
+ Ryan Brubacher: Fr tho, sometimes. But honestly, your skills and vibe matter more than the name. Just show you can hang.
+ Qusay Qadir: Good to know. Guess I’ll just keep repping Mac and hope someone notices.
+ Ryan Brubacher: Trust, you’re good. Mac grads are lowkey sleeper picks in the job market. Stay underrated. 💪
+ Qusay Qadir: Haha, sleeper picks. Alright, man, I should get back to the grind. Thanks for the chat.
+ Ryan Brubacher: Anytime, bro. And hey, don’t let the job hunt kill your vibe. You’re built different. Catch you later.
+ Qusay Qadir: Yo, before I go, quick question: how do you deal with imposter syndrome? Like, you ever feel like you’re not as good as everyone else at Synopsys?
+ Ryan Brubacher: Oh, all the time, bro. I look at some of these seniors like, “Dang, this guy probably codes in his sleep.” But here’s the cheat code: fake confidence and Google everything. 🫡
+ Qusay Qadir: Lol, relatable. So you just act like you belong until you actually do?
+ Ryan Brubacher: Exactly. Everyone’s winging it, bro. The ones who look confident are just better at hiding the panic.
+ Qusay Qadir: True, true. Alright, I’ll keep that in mind. But like, don’t you ever worry about being exposed?
+ Ryan Brubacher: Nah, cuz when you’re exposed, you’re just learning in public. The real L is not trying at all. 🧠
+ Qusay Qadir: Good point. Btw, do you think I should focus more on Leetcode or just build cool projects?
+ Ryan Brubacher: Honestly? Both, but don’t burn out. Leetcode gets you past the gates, but projects make recruiters go, “Yo, this guy’s got sauce.”
+ Qusay Qadir: Haha, gotta get the sauce then. Speaking of projects, what’s the coolest thing you’ve ever built?
+ Ryan Brubacher: Ooh, tough. Probably this AI tool that auto-generates memes from trending topics. It was dumb but fun. 💀
+ Qusay Qadir: Wait, that actually sounds fire. Did you show it off during interviews?
+ Ryan Brubacher: Oh yeah, they loved it. Even made a meme about Synopsys during my presentation. Instant W.
+ Qusay Qadir: That’s genius. Alright, I’ll try to think of something equally dumb but cool.
+ Ryan Brubacher: Big brain move, my guy. Just make sure it’s fun for you too. Projects hit different when you enjoy them.
+ Qusay Qadir: Got it. Also, random question: what’s your go-to procrastination activity?
+ Ryan Brubacher: Easy. YouTube rabbit holes. One second I’m watching coding tutorials, next I’m deep into “How to survive a bear attack.” 🐻
+ Qusay Qadir: Haha, classic. For me, it’s gaming. Nothing like a little Rocket League to avoid responsibilities.
+ Ryan Brubacher: Oh, Rocket League? Say less, we gotta run some games sometime. I’m trash, tho, fair warning.
+ Qusay Qadir: Lol, same. But yeah, let’s do it. I could use the distraction.
+ Ryan Brubacher: Bet. Just don’t rage quit when I miss open goals. It’s part of my charm. 💀
+ Qusay Qadir: No promises. Anyway, thanks again for all the advice. You’re like my unofficial career coach now.
+ Ryan Brubacher: Lmaoo, glad to help, bro. Just remember: trust the grind and don’t let the Ls get you down. You’re next up, fr.
+ Qusay Qadir: Appreciate it, man. Alright, I’ll catch you later.
+ Ryan Brubacher: Later, King. Keep me updated on your W streak. 👑
+ Qusay Qadir: Yo, quick update. I polished my GitHub and added a few write-ups. Think it’s good enough to share with recruiters?
+ Ryan Brubacher: Bet, let me peep. Drop the link.
+ Qusay Qadir: Here you go: github.com/QusayQadir
+ Ryan Brubacher: Okok, this is solid, bro. Add a lil readme swag, tho. Recruiters love pretty pictures and bold headings. 🫡
+ Qusay Qadir: Noted. Anything else I should tweak?
+ Ryan Brubacher: Maybe flex your biggest project at the top. Like, “Here’s my magnum opus.” Go big or go home.
+ Qusay Qadir: Alright, I’ll do that. Thanks for the feedback, man.
+ Ryan Brubacher: Always, bro. GitHub glow-ups are my specialty. You’re gonna kill it.
+ Qusay Qadir: Fingers crossed. Also, I sent a message to a recruiter yesterday. First time doing that. Kinda nerve-wracking.
+ Ryan Brubacher: Big W move. Just keep it chill. If they ghost, it’s their L, not yours.
+ Qusay Qadir: Haha, I’ll remember that. Anyway, how’s work? Any crazy Synopsys stories lately?
+ Ryan Brubacher: Oh bro, the other day someone accidentally pushed debug logs into production. The chaos was real. 💀
+ Qusay Qadir: Lol, classic. Did they fix it, or is Synopsys still on fire?
+ Ryan Brubacher: Nah, we fixed it. But the Slack memes were legendary. Nothing bonds a team like mutual suffering. 🫡
+ Qusay Qadir: Haha, sounds fun in a painful way. Alright, I’m gonna get back to applying. Wish me luck.
+ Ryan Brubacher: Luck? Bro, you don’t need it. You’re built different. Go secure that bag. 💼
+ Qusay Qadir: Appreciate it. Catch you later, man.
+ Ryan Brubacher: Later, King. Ping me if you need more pep talks. 👑
+ Qusay Qadir: Yo Ryan, back again. Got an interview invite from a company called CodeCraft. Ever heard of them?
+ Ryan Brubacher: Yo big dubs, let’s gooo! 👏 CodeCraft sounds familiar. What’s their vibe? Start-up or corporate grind?
+ Qusay Qadir: It’s a mid-sized company. They do custom software solutions for finance and healthcare.
+ Ryan Brubacher: Oh, fancy. Healthcare + finance? Bro, they’re probs swimming in cash. Secure that bag. 💼
+ Qusay Qadir: Haha, working on it. Any tips for tackling behavioral questions? I wanna make a good impression.
+ Ryan Brubacher: EZ. Just use the STAR method for everything. Situation, Task, Action, Result. Recruiters love structure, bro.
+ Qusay Qadir: Got it. Also, they’re asking about teamwork challenges. Any good examples I can use?
+ Ryan Brubacher: Ooo, talk about that group project where you carried the team but don’t say “I carried.” Say “I empowered the team.” Recruiter gold. 🏆
+ Qusay Qadir: Haha, alright. Also, tech interview’s on Leetcode medium problems. Should I practice more dynamic programming or graphs?
+ Ryan Brubacher: Oh, 100% graphs. Recruiters have a weird obsession with BFS and DFS. Prep those traversal algorithms, King. 👑
+ Qusay Qadir: Makes sense. I’ll grind some graph problems tonight. Thanks, man.
+ Ryan Brubacher: Anytime, bro. Just don’t let those graphs give you nightmares. They’re not that deep. 💀
+ Qusay Qadir: Lol, I’ll try. Anyway, how’s your hackathon gf doing? Still coding circles around you?
+ Ryan Brubacher: Bruhh, always. She debugged my code last week and didn’t even roast me. True love fr. 🫡
+ Qusay Qadir: Haha, sounds like a keeper. You better not mess that up.
+ Ryan Brubacher: Facts. I’m tryna keep her impressed, so I act like I know what I’m doing. It’s working… for now. 💀
+ Qusay Qadir: Nice, man. Speaking of impressing people, do you think recruiters care about fancy LinkedIn posts?
+ Ryan Brubacher: Oh, big time. Post a mini flex like “Excited to interview with CodeCraft! 🚀” but make it humble-braggy. Instant engagement.
+ Qusay Qadir: Hmm, I might do that. Hopefully, it doesn’t come off as cringe.
+ Ryan Brubacher: Bro, cringe is dead. If it gets you the bag, it’s W energy. Post that stuff. 🧠
+ Qusay Qadir: Alright, you convinced me. I’ll draft something later. Also, you ever think about switching jobs or are you comfy at Synopsys?
+ Ryan Brubacher: Oh, I’m comfy rn, but I’m always keeping an eye out. Gotta stay ready, bro. Loyalty’s cool, but securing better bags is cooler. 💼
+ Qusay Qadir: True. Btw, do you still keep in touch with anyone from our McMaster classes?
+ Ryan Brubacher: A few peeps, yeah. Mostly group chat lurking, tho. You?
+ Qusay Qadir: Same here. Hard to keep up when everyone’s doing their own thing.
+ Ryan Brubacher: Fr. Adulting is just everyone vibing in their own grind bubbles. Sad but true. 😔
+ Qusay Qadir: Haha, well said. Alright, I’m gonna get back to prepping. Thanks again for the pep talks, man.
+ Ryan Brubacher: Anytime, King. Go ace that interview. And don’t forget to vibe-check the recruiter. 👑
+ Qusay Qadir: Yo Ryan, killed the CodeCraft interview yesterday! Feeling good about this one.
+ Ryan Brubacher: LET’S GOOOO! 🎉 Big W energy. How’d it go? Did you hit them with the sauce?
+ Qusay Qadir: Haha, yeah, I think so. Behavioral was smooth, and I solved the graph problem in like 15 minutes.
+ Ryan Brubacher: King behavior. 15 mins?? You probs had the recruiter like “Dang, we gotta hire this dude rn.” 💀
+ Qusay Qadir: Lol, I hope so. They said I’ll hear back next week.
+ Ryan Brubacher: Bet. Now just chill and pretend you’re not checking your email every five minutes. 😂
+ Qusay Qadir: Too late for that. Anyway, thanks for all the advice. You’re like my hype man and career coach in one.
+ Ryan Brubacher: Lmaoo, that’s what friends are for, bro. Can’t wait to see you flex that offer letter soon. 🫡
+ Qusay Qadir: Fingers crossed. I’ll keep you posted.
+ Ryan Brubacher: Bet. And remember, if all else fails, we start that taco truck side hustle. 🌮
+ Qusay Qadir: Haha, deal. Later, man.
+ Ryan Brubacher: Later, King. 👑
+ Ryan Brubacher: Yo, Qusay, you got a minute? I need to vent, man. Life’s been… a lot lately. 💀
+ Qusay Qadir: Of course, man. What’s going on? You okay?
+ Ryan Brubacher: Bro, I feel like I’m drowning. School’s wild, work’s nonstop, and my brain’s out here like “nah, we’re not doing this today.” 🫠
+ Qusay Qadir: That sounds rough. Balancing everything can be overwhelming. Have you been taking breaks or talking to anyone about it?
+ Ryan Brubacher: Breaks? Bro, I wish. Every time I sit down to chill, my brain’s like, “Shouldn’t you be doing something productive?” Like, chill, Karen. 😭
+ Qusay Qadir: I get that, but overworking yourself isn’t going to help. Your brain needs rest to function properly. Have you tried setting boundaries, like no work after a certain time?
+ Ryan Brubacher: Boundaries? Bro, I don’t even know her. 💀 But fr, I should probably try that. My sleep schedule is giving “college freshman at a LAN party” vibes.
+ Qusay Qadir: Definitely try it. Sleep and downtime are non-negotiable if you want to stay sane. Also, have you thought about talking to someone, like a counselor?
+ Ryan Brubacher: Hmm, I’ve been thinking about it, but idk, feels weird. Like, “Hello, I’m broken. Pls fix me.” You know? 🥴
+ Qusay Qadir: I get that it feels strange, but therapy isn’t about being fixed. It’s about having someone help you figure things out. No shame in it, man.
+ Ryan Brubacher: You’re right. Honestly, my brain is like a messy desktop rn. Too many tabs open, none of them useful. 🧠💻
+ Qusay Qadir: That’s a good analogy. Therapy could help you close some of those tabs or at least prioritize which ones need attention first.
+ Ryan Brubacher: True. My top tab is probably “existential crisis dot com.” But seriously, thanks for listening, bro. I feel a bit less broken just talking about it.
+ Qusay Qadir: Anytime, man. You’re not broken. You’re just human, and it’s okay to feel this way. You don’t have to do it all alone.
+ Ryan Brubacher: Thanks, King. You’re like my personal TED Talk but less boring. 🫡
+ Qusay Qadir: Haha, glad to help. But seriously, try setting some boundaries and look into therapy. It could make a big difference.
+ Ryan Brubacher: Will do. For now, I’m gonna try the revolutionary idea of sleeping before midnight. Pray for me. 🙏
+ Qusay Qadir: Good call. Let me know how it goes. And remember, you’ve got this. One step at a time.
+ Ryan Brubacher: Appreciate you, bro. Catch you later.
+ Ryan Brubacher: Update: went to bed at 11 last night. Felt like a grandpa but woke up not hating life. W or L?
+ Qusay Qadir: That’s a big W! Sleep is underrated. You might actually find yourself being more productive now.
+ Ryan Brubacher: Fr tho, I woke up and didn’t need five cups of coffee to feel alive. This might be the move. 👴☕
+ Qusay Qadir: Exactly. Now keep that streak going. Consistency is key.
+ Ryan Brubacher: You’re basically my life coach at this point. Next thing you’ll tell me is to eat veggies or smth. 💀
+ Qusay Qadir: Haha, I was going to say that, actually. A balanced diet helps too. Take care of your body and mind.
+ Ryan Brubacher: Dang, Qusay out here making me a functional human. What’s next? Yoga at sunrise? 🧘
+ Qusay Qadir: Not a bad idea! But seriously, small changes like this can make a huge difference.
+ Ryan Brubacher: True. Alright, I’m gonna try sticking to this bedtime thing for a week. If it works, I owe you coffee. ☕
+ Qusay Qadir: Deal. Keep me posted. And remember, you’re doing great. Progress, not perfection.
+ Ryan Brubacher: Thanks, bro. Fr, you’re a real one. Catch you later.
+ Qusay Qadir: Anytime, man. Talk soon.
+ Ryan Brubacher: Yo Qusay, quick update on the sleep experiment. Three days in, and I feel like a semi-functional adult. Is this what normal people feel like? 🧠✨
+ Qusay Qadir: Haha, pretty much. I’m glad it’s helping. How’s the workload been? Still overwhelming?
+ Ryan Brubacher: Oh, 100%. My professor just hit us with a project deadline outta nowhere, like we don’t already have 12 other things to do. Bruh moment. 💀
+ Qusay Qadir: That’s frustrating. Do you think it’s manageable, or is it time to prioritize and push back on some things?
+ Ryan Brubacher: Manageable… maybe? But lowkey thinking about “accidentally” forgetting to do half of it. Procrastination is calling my name. 🫠
+ Qusay Qadir: Don’t fall into that trap, man. Break it into smaller tasks, and chip away at it. Even 30 minutes at a time can make a huge difference.
+ Ryan Brubacher: Facts. Okay, I’ll try the 30-min grind sesh. If I actually finish this thing, I’m treating myself to pizza or smth. 🍕
+ Qusay Qadir: That’s the spirit. Reward yourself for the wins, no matter how small.
+ Ryan Brubacher: Bro, your positivity is unmatched. You ever think about being a motivational speaker? 🫡
+ Qusay Qadir: Haha, not really. I just know what it’s like to feel overwhelmed, and having someone to talk to helps.
+ Ryan Brubacher: For real, tho. You’re a W friend. Appreciate you hyping me up instead of just saying “sucks to suck.” 💀
+ Qusay Qadir: Anytime, man. You’re capable of handling this, even if it feels like too much sometimes.
+ Ryan Brubacher: Thanks, bro. Alright, I’m gonna attempt this 30-min task grind. Pray for me. 🙏
+ Qusay Qadir: You’ve got this. Let me know how it goes.
+ Ryan Brubacher: Yo, finished a chunk of it! Lowkey proud of myself. Is this what productivity feels like? 🧠🔥
+ Qusay Qadir: Nice work! See? Breaking it down works. Keep it up, and you’ll knock this out in no time.
+ Ryan Brubacher: Fr tho. Maybe I should try this strategy for other stuff too. Who knew being organized was OP? 💀
+ Qusay Qadir: Organization is underrated. You don’t have to be perfect, but having a plan makes life so much easier.
+ Ryan Brubacher: Facts. Next step: actually using a calendar instead of just winging it every day. Wish me luck. 😂
+ Qusay Qadir: That’s a solid move. You’ll feel so much less stressed once you have things laid out.
+ Ryan Brubacher: Bet. If this works, I’m nominating you for friend of the year. 🫡
+ Qusay Qadir: Haha, I’ll hold you to that. But seriously, I’m proud of you for taking these steps.

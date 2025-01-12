@@ -1,0 +1,2 @@
+chatBotName, uploaded_chat_file, cleaned_chat_file, output_chat_file, dataSetID, modelID 
+Ryan, Ryan_uploaded_chat.txt, Ryan_cleaned_chat.txt , Ryan_coherefriendly.jsonl,    ,   
