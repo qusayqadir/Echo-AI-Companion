@@ -106,7 +106,7 @@ export default function Profiles() {
         <Box p="6">
           <Spacer />
           <Heading>
-            <Avatar boxSize="50px" name="Logo" src="echo.png" />
+            <Avatar boxSize="50px" name="Logo" src="echo.png" marginRight={2} />
             Echo | AI Companion
           </Heading>
         </Box>

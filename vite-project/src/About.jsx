@@ -30,7 +30,7 @@ export default function About() {
       <Box p="6">
         <Spacer />
         <Heading>
-          <Avatar boxSize="50px" name="Logo" src="echo.png" />
+          <Avatar boxSize="50px" name="Logo" src="echo.png" marginRight={2}/>
           Echo | AI Companion 
         </Heading>
       </Box>
@@ -71,77 +71,61 @@ export default function About() {
       </Box>
     </Flex>
 
-      <Box bg = 'white' p="6" mx="auto">
-        <Center>
-          <Heading as="h2" size="xl" mb="4">
-            About Echo AI
-          </Heading>
-        </Center>
-      </Box>
-
-      <Box p="4" mx="auto" maxW="4xl">
-        <Text fontSize="lg" mb="4">
-          meow
-        </Text>
-      </Box>
-
-      <Box p="4" mx="auto" maxW="4xl" bg='white' borderRadius="md">
-        <Heading as="h3" size="lg" mb="2">
-          Our Story
+    <Box bg = 'white' p="6" mx="auto">
+      <Center>
+        <Heading as="h2" size="xl" mb="4">
+          About Us!
         </Heading>
-        <Text fontSize="lg" mb="4">
-          meow
-        </Text>
-      </Box>
+      </Center>
+    </Box>
 
-      <Box p="4" mx="auto" maxW="4xl">
-        <Heading as="h3" size="lg" mb="2">
-          What We Offer
-        </Heading>
-        <Text fontSize="lg" mb="2">
-          <strong>Smart Waste Identification:</strong> Simply take a picture of your trash using the SnapWaste app or website. Our advanced AI technology analyzes the image and identifies whether the item should be recycled, composted, or sent to the landfill.
-        </Text>
-        <Text fontSize="lg" mb="2">
-          <strong>Personalized Disposal Instructions:</strong> SnapWaste doesn’t just tell you where to dispose of your waste; it also provides detailed instructions on how to prepare items for disposal. This includes steps like cleaning or rinsing containers before recycling them, ensuring that you follow the best practices for waste management.
-        </Text>
-        <Text fontSize="lg" mb="2">
-          <strong>Locate Disposal Centers:</strong> Our platform helps you find the nearest recycling centers, compost facilities, and garbage disposal sites. Whether you're at home or traveling, SnapWaste ensures you can easily locate a facility to drop off your waste.
-        </Text>
-      </Box>
+    <Spacer>
 
-      <Box p="4" mx="auto" maxW="4xl" bg="gray.100" borderRadius="md">
-        <Heading as="h3" size="lg" mb="2">
-          Why Choose SnapWaste?
-        </Heading>
-        <Text fontSize="lg" mb="2">
-          <strong>Easy to Use:</strong> Our intuitive interface makes waste management simple. Just snap a picture, and let SnapWaste guide you through the rest.
-        </Text>
-        <Text fontSize="lg" mb="2">
-          <strong>Educational Resources:</strong> SnapWaste offers a wealth of information on waste reduction, recycling best practices, and sustainable living tips. We aim to educate and empower our users to make environmentally-friendly choices.
-        </Text>
-        <Text fontSize="lg" mb="2">
-          <strong>Community Engagement:</strong> Join a community of environmentally conscious individuals dedicated to reducing waste and promoting sustainability. Share tips, ask questions, and learn from others.
-        </Text>
-        <Text fontSize="lg" mb="2">
-          <strong>Continuous Innovation:</strong> We are committed to continuously improving our technology and expanding our database to provide the most accurate and helpful information. Your feedback is essential in helping us enhance our services.
-        </Text>
-      </Box>
+    <Box
+      marginTop="10px"
+      p="4"
+      mx="auto"
+      maxW="4xl"
+      bg="gray.100"
+      borderRadius="md"
+    >
+      <Text fontSize="lg" mb="4">
+        Welcome to Echo AI, your ultimate companion for dynamic and engaging
+        conversations. At Echo, we've crafted a platform that blends advanced AI 
+        technology with personalized interactions, allowing you to explore a variety 
+        of personas tailored to meet your interests, assist with tasks, or simply 
+        provide some enjoyable banter.
+      </Text>
+      <Text fontSize="lg" mb="4">
+        Our chatbot is more than just an AI—it's designed to understand your 
+        preferences, adapt to your unique style, and make every interaction feel 
+        intuitive and authentic. Whether you're here to learn, seek assistance, or 
+        unwind, Echo AI offers a seamless and tailored experience for every user.
+      </Text>
+      <Text fontSize="lg" mb="4">
+        We're dedicated to innovation, accessibility, and security. From our 
+        state-of-the-art AI models to our user-friendly design, Echo AI is built 
+        with your needs in mind. Plus, with privacy as a top priority, your 
+        conversations remain safe and secure, giving you peace of mind while you chat.
+      </Text>
+      <Text fontSize="lg">
+        Join the Echo community today and discover a world of personalized AI 
+        interactions. Let's build the future of conversational technology—together!
+      </Text>
+    </Box>
 
-      <Box p="4" mx="auto" maxW="4xl">
-        <Text fontSize="lg" mb="4">
-          At SnapWaste, we believe that proper waste management is crucial for a sustainable future. Join us in making a positive impact on our environment by disposing of waste the right way, one snap at a time.
-        </Text>
-      </Box>
 
-    <Flex>
+    </Spacer> 
+
+    <Flex mt="55px">
         <Box marginBottom='-33px' bg='gray.200' w={'100%'}>
           <Center>
             <Text marginTop='1' marginRight={5}>
               Privacy Policy and Terms of Service
-              </Text>
-            </Center>
-          </Box>
-        </Flex>
+            </Text>
+          </Center>
+        </Box>
+      </Flex>
     </>
   );
 }

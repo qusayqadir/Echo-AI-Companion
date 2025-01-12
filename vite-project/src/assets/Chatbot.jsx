@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Routes, Route, Link as RouterLink, useNavigate } from "react-router-dom";
 import {
   Box,
   Flex,
@@ -7,7 +8,10 @@ import {
   Button,
   VStack,
   HStack,
-  Link
+  Link,
+  Spacer,
+  Heading,
+  Avatar
 } from "@chakra-ui/react";
 
 const Chatbot = () => {
@@ -47,19 +51,32 @@ const Chatbot = () => {
   
     return (
     <>
-    <Flex>
-        <Link href="/Profiles" marginLeft={4} marginRight={4}>
-        Founders
-        </Link>
+    <Flex color = 'gray'>
+        <Box />
+        <Box p="6">
+          <Spacer />
+          <Heading>
+            <Avatar boxSize="50px" name="Logo" src="echoprofile.png" marginRight={2}/>
+            Echo | AI Companion 
+          </Heading>
+        </Box>
+
+        <Spacer />
+
+        <Box p="10">
+          <Button as={RouterLink} to="/Profiles" marginLeft={4} marginRight={4}>
+            Return to Profile
+          </Button>
+        </Box>
     </Flex>
 
-      <Flex direction="column" height="100vh">
+      <Flex direction="column" height="80vh">
         {/* Chat Display */}
         <VStack
           flex="1"
           overflowY="auto"
           spacing={4}
-          bg="gray.100"
+          
           p={4}
           align="stretch"
         >
@@ -86,7 +103,7 @@ const Chatbot = () => {
             onChange={(e) => setUserPrompt(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && handleSendMessage()}
           />
-          <Button onClick={handleSendMessage} colorScheme="blue">
+          <Button onClick={handleSendMessage} colorScheme="gray">
             Send
           </Button>
         </HStack>
