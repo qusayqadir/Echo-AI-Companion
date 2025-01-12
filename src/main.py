@@ -9,6 +9,8 @@ from cohere.finetuning import (
     BaseModel,
     FinetunedModel,
     Settings,
+    BaseType,
+    FinetunedModel,
 )
 
 
@@ -56,6 +58,7 @@ def callOpenAI_throughMain(uploaded_chat):
     )
     openai_call.cleanOpenAIResponse(output_chat_file)
     openai_call.convert_to_json1(output_chat_file)
+    openai_call.utf8_encoding(output_chat_file)
 
     return cleaned_chat_file_path, output_chat_file
 
@@ -72,6 +75,21 @@ def uploadtoCohere(botname):
 
     return dataset_ID 
 
+def trainCohere(botname, dataset_ID): 
+
+    openai_upload_filepath = "../chatbot-model/cohereapi_call_train.py"
+    module_name = "cohere"
+
+    # Load the module dynamically
+    spec = importlib.util.spec_from_file_location(module_name, openai_upload_filepath)
+    cohere = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(cohere)
+
+    modelID = cohere.fine_tune_model(botname, dataset_ID) 
+
+    return modelID
+
+    
 if __name__ == "__main__":
     new_file_uploaded = False
     new_file_name = ""
@@ -126,11 +144,12 @@ if __name__ == "__main__":
             botname = new_file_name.split('_')[0]
 
             dataset_ID = uploadtoCohere(botname)
-
+            modelID = trainCohere(botname,dataset_ID)
             # Update the row with the new values
             new_row["cleaned_chat_file"] = cleaned_chat_file_path
             new_row["output_chat_file"] = output_chat_file
             new_row["dataSetID"] = dataset_ID 
+            new_row["modelID"] = modelID 
 
             # Convert the updated row to a DataFrame
             new_row_df = pd.DataFrame([new_row])

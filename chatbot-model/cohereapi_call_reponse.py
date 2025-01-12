@@ -1,8 +1,7 @@
 import cohere
 
 # Initialize the Cohere client with your API key
-co = cohere.Client('DJ2IaSIlgQIGZuk1WNuV1yP1B5nuP9w7qIvBFoe6')  # Replace with your actual API key
-
+co = cohere.Client('DJ2IaSIlgQIGZuk1WNuV1yP1B5nuP9w7qIvBFoe6')  
 # Model ID
 model_id = 'f97b173f-5615-42df-beff-f8f15f31fd27-ft'
 

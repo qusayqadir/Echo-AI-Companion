@@ -1,2 +1,2 @@
-chatBotName, uploaded_chat_file, cleaned_chat_file, output_chat_file, dataSetID, modelID 
-Ryan, Ryan_uploaded_chat.txt, Ryan_cleaned_chat.txt , Ryan_coherefriendly.jsonl,    ,   
+chatBotName,uploaded_chat_file,cleaned_chat_file,output_chat_file,dataSetID,modelID
+Ryan,Ryan_uploaded_chat.txt,Ryan_cleaned_chat.txt,Ryan_coherefreidnly.jsonl,'chatbot-dataset-vwbdxg','f97b173f-5615-42df-beff-f8f15f31fd27-ft' 

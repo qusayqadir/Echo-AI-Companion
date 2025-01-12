@@ -34,101 +34,104 @@ def processdata(uploaded_chat, cleaned_chat):
     
         return chatbot, user
 
-
 def callOpenAI(open_api_key, cleaned_chat, output_file, chatbot, user):
+    openai.api_key = open_api_key
+
+    # Read the content of the .txt file
     with open(cleaned_chat, 'r', encoding='utf-8') as file:
         file_content = file.read()
 
     # Build the OpenAI prompt dynamically with chatbot and user names
     prompt = f"""
-    Please process the following file contents as described:
+    You are a helpful assistant processing chat logs. Please analyze the following chat logs between {user} (User) and {chatbot} (Chatbot).
 
     Input:
     {file_content}
 
     Instructions:
-    1. This is a conversation between {user} (the user) and {chatbot} (the chatbot). User talks first. 
-    2. Determine where each conversation begins and ends. Save the conversations in the format:
-    {{
-        "messages": [
-            {{
-                "role": "System",
-                "content": "You are a chatbot trained to answer the user's questions."
-            }},
-            {{
-                "role": "User",
-                "content": "Hello"
-            }},
-            {{
-                "role": "Chatbot",
-                "content": "Greetings! How can I help you?"
-            }},
-            {{
-                "role": "User",
-                "content": "What makes a good running route?"
-            }},
-            {{
-                "role": "Chatbot",
-                "content": "A sidewalk-lined road is ideal so that you’re up and off the road away from vehicular traffic."
-            }}
-        ]
-    }}
+    - Extract the conversation into JSONL format.
+    - Each conversation starts with the "User" and alternates between "User" and "Chatbot".
+    - Format each conversation as:
+        {{
+            "messages": [
+                {{
+                    "role": "User",
+                    "content": "User's message here"
+                }},
+                {{
+                    "role": "Chatbot",
+                    "content": "Chatbot's response here"
+                }}
+            ]
+        }}
+    - Ensure each conversation is separated into individual JSON objects on new lines.
 
-    3. Associate the content with the correct role (user or chatbot) as labeled in the .txt file.
-    4. For each new conversation, create a new JSON object and append it to the output file.
-
-    Output: Only the processed JSONL file, and I need at least 2 conversatoins to be returned, I need full conversations returned.
-    Each conversation should have follow the same format as the example given. I need the file as a JSONL file, each line to be an individual JSON object
+    Return only the processed JSONL content.
     """
 
-    # Call the OpenAI API
+    # Call the OpenAI API with the prompt
     response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
         ],
-        max_tokens=1500,
-        temperature=0.7
+        max_tokens=2000,
+        temperature=0.5
     )
 
+    # Extract the response content
     processed_content = response['choices'][0]['message']['content']
 
-    # Write the processed content to the output file
-    with open(output_file, 'w', encoding='utf-8') as file:
-        file.write(processed_content)
-    
-def cleanOpenAIResponse(output_file): 
+    # Validate and write the response to the output file
+    if processed_content.strip():  # Ensure the response is not empty
+        with open(output_file, 'w', encoding='utf-8') as file:
+            file.write(processed_content)
+        print(f"Output written to {output_file}")
+    else:
+        raise ValueError("OpenAI returned an empty response.")
 
+
+
+def cleanOpenAIResponse(output_file):
     try:
         # Read the file content
-        with open(output_file, 'r') as file:
-            content = file.read()
-        
-        # Extract the content within the outermost square brackets
-        match = re.search(r'\[.*\]', content, re.DOTALL)
-        if match:
-            cleaned_content = match.group(0)  # Extract matched text
-            
-            # Overwrite the file with cleaned content
-            with open(output_file, 'w') as file:
-                file.write(cleaned_content)
-            print("File cleaned and overwritten successfully.")
-        else:
-            print("No content found within square brackets.")
-    
+        with open(output_file, 'r', encoding='utf-8') as file:
+            lines = file.readlines()
+
+        # Validate each line as JSON
+        cleaned_lines = []
+        for line in lines:
+            try:
+                json_data = json.loads(line.strip())  # Validate JSON
+                cleaned_lines.append(json_data)
+            except json.JSONDecodeError:
+                print(f"Skipping invalid JSON line: {line.strip()}")
+
+        # Overwrite the file with valid JSON lines
+        with open(output_file, 'w', encoding='utf-8') as file:
+            for json_obj in cleaned_lines:
+                file.write(json.dumps(json_obj) + '\n')  # Write valid JSONL
+
+        print("File cleaned and overwritten successfully.")
     except Exception as e:
-        print(f"Error occurred: {e}")
+        print(f"Error occurred during cleaning: {e}")
+
 
  
-def convert_to_json1(output_file): 
-    with open(output_file, 'r', encoding='utf-8') as infile:
-        data = json.load(infile)
-    
-    with open(output_file, 'w', encoding='utf-8') as outfile:
-        for conversation in data:  # Each conversation is written as a single line
-            json.dump(conversation, outfile)
-            outfile.write('\n')  # Add a newline after each JSON object
+def convert_to_json1(output_file):
+    try:
+        with open(output_file, 'r', encoding='utf-8') as infile:
+            data = [json.loads(line) for line in infile]  # Load JSONL lines
+
+        with open(output_file, 'w', encoding='utf-8') as outfile:
+            for conversation in data:
+                json.dump(conversation, outfile)
+                outfile.write('\n')  # Ensure proper JSONL format
+
+        print("Conversion to JSONL complete.")
+    except Exception as e:
+        print(f"Error during JSONL conversion: {e}")
 
 
 def utf8_encoding(input_file):
@@ -140,6 +143,8 @@ def utf8_encoding(input_file):
             outfile.write(line)
 
     os.replace(temp_file_path, input_file)
+
+
 
 
 if __name__ == "__main__":
