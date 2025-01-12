@@ -6,7 +6,7 @@ from cohere.finetuning import (
 )
 import cohere
 
-cohere_api_key_path = "(git_ignore)cohere_api_key.txt"
+cohere_api_key_path = "C:/Users/jackv/Documents/deltahacks/Backend/data/(git_ignore)cohere_api_key.txt"
 cohere_api_key = "" 
 
 with open(cohere_api_key_path, 'r') as file: 

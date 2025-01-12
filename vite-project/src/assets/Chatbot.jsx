@@ -83,9 +83,9 @@ const Chatbot = () => {
           {conversation.map((message, index) => (
             <Box
               key={index}
-              alignSelf={message.role === "user" ? "flex-end" : "flex-start"}
-              bg={message.role === "user" ? "blue.500" : "gray.300"}
-              color={message.role === "user" ? "white" : "black"}
+              alignSelf={message.role === "User" ? "flex-end" : "flex-start"}
+              bg={message.role === "User" ? "blue.500" : "gray.300"}
+              color={message.role === "User" ? "white" : "black"}
               p={3}
               borderRadius="lg"
               maxWidth="75%"
