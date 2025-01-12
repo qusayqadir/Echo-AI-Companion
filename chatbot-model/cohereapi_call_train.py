@@ -21,25 +21,25 @@ def fine_tune_model(botname, dataset_ID):
 
     model_name = f"{botname_file_name}_chatbot_model".lower().replace(" ", "_")
 
-
-    
     # Create the fine-tuned model
     create_response = co.finetuning.create_finetuned_model(
         request=FinetunedModel(
-            name=model_name,  # Name of the fine-tuned model
+            name=model_name,
             settings=Settings(
                 base_model=BaseModel(
                     base_type="BASE_TYPE_CHAT",
                 ),
-                dataset_id= f"{dataset_ID}"
+                dataset_id=f"{dataset_ID}"
             )
         )
     )
-    time.sleep(1200)
+
+    print(f"Fine-tuning initiated for model: {model_name}. Waiting 20 minutes before fetching the model ID.")
+    time.sleep(1200)  # Wait for 20 minutes
+
+    # Attempt to retrieve the model ID
     model_id = create_response.id
-    print(f"Fine-tuning initiated. Model ID: {model_id}")
+    if not model_id:
+        raise Exception(f"Failed to retrieve Model ID for model: {model_name} after 20 minutes.")
 
     return model_id
-
-    # Polling for fine-tuned model training status
-
