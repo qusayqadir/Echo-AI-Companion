@@ -18,19 +18,8 @@ def uploadCohere(botname):
         type="chat-finetune-input"
     )
 
+    time.sleep(60)
     dataset_id = chat_dataset.id
     print(f"Dataset uploaded. Dataset ID: {dataset_id}")
 
-    # Polling to check dataset status
-    while True: 
-        dataset_status = co.datasets.get(dataset_id).status  # Fetch the updated status
-        print(f"Dataset status: {dataset_status}")
-
-        if dataset_status == "STATUS_READY":  # Check if the dataset is ready
-            print(f"Dataset {dataset_id} is validated and ready for fine-tuning.")
-            return dataset_id
-        elif dataset_status == "STATUS_FAILED":
-            raise Exception(f"Dataset validation failed for Dataset ID: {dataset_id}")
-        
-        # Wait before polling again
-        time.sleep(30)  # Adjust polling interval as need
+    return dataset_id
