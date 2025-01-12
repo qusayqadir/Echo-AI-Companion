@@ -5,11 +5,9 @@ from cohere.finetuning import (
     Settings,
 )
 import cohere
-import pandas as pd 
 import time
 
 # Fine-tune the model
-
 def fine_tune_model(botname, dataset_ID): 
     cohere_api_key_path = "../data/(git_ignore)cohere_api_key.txt"
     cohere_api_key = "" 
@@ -24,49 +22,37 @@ def fine_tune_model(botname, dataset_ID):
     model_name = f"{botname_file_name}_chatbot_model".lower().replace(" ", "_")
 
 
-        # Get the datasetID from the same row
-    dataset_id_caller = dataset_ID  # Use `.values[0]` to extract the scalar value
-
-
+    
+    # Create the fine-tuned model
     create_response = co.finetuning.create_finetuned_model(
         request=FinetunedModel(
-            # create a new name for the dataset, and replace the "chatbot" with the persons name 
-            name= model_name,  # Name of the fine-tuned 
-            settings = Settings(
+            name=model_name,  # Name of the fine-tuned model
+            settings=Settings(
                 base_model=BaseModel(
-                    base_type= "BASE_TYPE_CHAT",
+                    base_type="BASE_TYPE_CHAT",
                 ),
-                dataset_id= f"{dataset_id_caller}" 
+                dataset_id=dataset_ID
             )
         )
     )
 
     model_id = create_response.id
+    print(f"Fine-tuning initiated. Model ID: {model_id}")
 
+    # Polling for fine-tuned model training status
     while True:
-        # Fetch the fine-tuned model details
         model_status_response = co.finetuning.get_finetuned_model(model_id)
-        status = model_status_response.status  # The status field indicates the training status
+        status = model_status_response.status  # Training status field
 
         print(f"Training status: {status}")
-        
-        if status == "COMPLETED":
+
+        if status == "STATUS_READY":
             print(f"Model training completed. Model ID: {model_id}")
+            return model_id
             break
-        elif status == "FAILED":
+        elif status == "STATUS_FAILED":
             raise Exception(f"Model training failed. Model ID: {model_id}")
-        else:
-            # Wait before polling again
-            time.sleep(12000)  # Adjust polling interval as needed
 
-
-    return model_id 
-
-    # Return the completed model ID
-
-
-# print(create_response)
-
-# get the fine-tuned model object
-
+        # Wait before polling again
+        time.sleep(300)
 
