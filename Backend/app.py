@@ -1,6 +1,12 @@
 from flask import Flask, request, jsonify
 import os
 
+from ChatbotModel.ChatWithBot import chat_with_bot
+from ChatbotModel.TrainBot import fine_tune_mode
+from ChatbotModel.UploadData import upload_data_cohere
+
+
+
 app = Flask(__name__)
 
 # Store conversations with chat_id as keys
@@ -52,7 +58,7 @@ def chat(chat_id):
     chats[chat_id].append({"role": "user", "content": user_prompt})
 
     # Placeholder bot response
-    bot_response = f"Echo: {user_prompt}"
+    bot_response = chat_with_bot(user_prompt, "f97b173f-5615-42df-beff-f8f15f31fd27-ft", chats[chat_id])
     chats[chat_id].append({"role": "assistant", "content": bot_response})
 
     # Return the updated conversation
